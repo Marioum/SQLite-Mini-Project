@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Td_intent</string>
+    <string name="android">Android</string>
+    <string name="ios">iOS</string>
+</resources>

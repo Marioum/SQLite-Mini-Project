@@ -1,0 +1,15 @@
+﻿Android
+descriptionAndroid
+54
+3
+820
+iOS
+descriptioniOs
+54
+3
+820
+:BlackBerry
+descriptionBlackBerry
+54
+3
+820

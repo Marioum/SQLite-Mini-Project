@@ -1,0 +1,17 @@
+<applic>
+    <os>
+        <name>Android</name>
+        <image>android</image>
+        <information>Lancé en juin 2007 à la suite du rachat par Google en 2005 de la startup du même nom5, le système avait d'abord été conçu pour les smartphones et tablettes tactiles, puis s'est diversifié dans les objets connectés et ordinateurs comme les télévisions (Android TV), les voitures (Android Auto), les ordinateurs (Android-x86) et les smartwatch (Android Wear).</information>
+    </os>
+    <os>
+        <name>Ios</name>
+        <image>ios</image>
+        <information>iOS, anciennement iPhone OS, est le système d'exploitation mobile développé par Apple pour plusieurs de ses appareils. Il est dérivé de OS X dont il partage les fondations (le noyau hybride XNU basé sur le micro-noyau Mach, les services Unix et Cocoa, etc.)</information>
+    </os>
+    <os>
+        <name>Windows 8</name>
+        <image>windowsphone</image>
+        <information>windows 8</information>
+    </os>
+</applic>

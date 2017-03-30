@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:stretchColumns="1">
+
+    <TextView
+        android:text="Poids : "
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_orange_dark"
+        android:gravity="center"
+        />
+    <EditText
+        android:id="@+id/poids"
+        android:hint="Poids"
+        android:inputType="numberDecimal"
+        android:layout_span="2"
+        />
+
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Taille : "
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_orange_dark"
+        android:gravity="center"
+        />
+    <EditText
+        android:id="@+id/taille"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Taille"
+        android:inputType="numberDecimal"
+        android:layout_span="2"
+        />
+
+    <RadioGroup
+        android:id="@+id/group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checkedButton="@+id/radio2"
+        android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/radioButtonMetre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mètre"
+
+            android:textColorLink="?android:attr/colorActivatedHighlight" />
+        <RadioButton
+            android:id="@+id/radioButtonCentimetre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Centimètre"
+            android:checked="true"
+            android:textColorLink="?android:attr/colorActivatedHighlight" />
+    </RadioGroup>
+
+
+    <Button
+        android:id="@+id/calcul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculer l'IMC"
+        />
+    <Button
+        android:id="@+id/effacer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Effacer"
+        android:layout_column="2"
+        android:elevation="0dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Résultat:"
+        android:gravity="center"
+        />
+    <TextView
+        android:id="@+id/resultat"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:text="Résultat"
+        android:gravity="top|center"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColorLink="?android:attr/colorActivatedHighlight" />
+</TableLayout>
